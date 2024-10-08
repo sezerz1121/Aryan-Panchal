@@ -1,0 +1,1165 @@
+body
+{
+  scroll-behavior: smooth;
+  margin: 0%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+
+}
+
+
+  
+#root{
+  margin: 0%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+ 
+}
+.NavbarParentDiv
+{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    
+    
+}
+.NavbarDiv
+{
+    width: 90%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+.NavbarPagesDiv
+{
+    width: 31.67%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.NavbarPages
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    cursor: pointer;
+}
+.NavbarResume
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25.5px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.NavbarBurger {
+  display: none;
+  cursor: pointer;
+}
+
+.HeroSectionParentDiv
+{
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    
+}
+.DecorationPurple {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    right: -300px;
+
+}
+.ellipse {
+    width: 600px;
+    height: 600px; 
+    background-color: #5B6CFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -180px; 
+    right: -180px;
+    filter: blur(90px);
+    opacity: 0.46;
+    z-index: -1;
+
+}
+.HeroSectionTextParent
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeroSectionIntro
+{
+    width: 60%;
+    height: 716px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ImageDiv
+{
+    height: 566px;
+    width: 566px;
+    position: relative;
+}
+.ellipseI {
+    width: 600px; 
+    height: 600px; 
+    background-color: #FF5D20;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-15px; 
+    right: -15px;
+    filter: blur(90px);
+    opacity: 0.46;
+    z-index: -1;
+
+}
+.ellipseII {
+    width: 600px; 
+    height: 600px; 
+    background-color: #F4EB97;
+    border-radius: 50%;
+    position: absolute;
+    top:-150px; 
+    left: -150px;
+    filter: blur(90px);
+    opacity: 0.46;
+    z-index: -1;
+
+}
+.Image
+{
+    height: 566px;
+    width: 566px;
+}
+.HeroSectionIntroText
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.HeroSectionIntroTopText
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25.5px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    margin-top: 98px;
+}
+
+
+.small-text {
+    font-size: 80px; 
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFA500; 
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.large-text {
+    font-size: 86px; 
+    font-weight: bold;
+    font-family: 'Sans-serif', sans-serif;
+    color: #FFFFFF;
+    line-height: 1; 
+    margin-top: 1.5rem; 
+}
+
+.HeroSectionIntroBottomText
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 700px;
+    color: #fff;
+    margin-top: 70px;
+    
+}
+.gradient-button {
+    background: linear-gradient(to bottom, #ffffff, #3A3A3A);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 270px;
+    height: 77px;
+    transition:  0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 64px;
+    position: relative;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to bottom, #e0e0e0, #333333);
+}
+.gradient-button-emoji
+{
+    position: absolute;
+    top: -35px;
+    right: -20px;
+    rotate: -20deg;
+}
+.HeroSectionEndPartition {
+    margin-top: 175px;
+    height: 88px;
+    rotate: -5deg;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+  }
+  
+  .HeroSectionEndPartitionContent {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .HeroSectionEndPartitionText {
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  
+  .HeroSectionEndPartitionStar {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutMeParentDiv
+  {
+    margin-top: 225px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutMeTitle
+  {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+ 
+.Underline
+{
+    background-color: #fff;
+    height: 1px;
+}
+.AboutMeTitleText
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+.AboutMeInfo
+{
+    margin-top: 75px;
+    height: 478px;
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.AboutmeInfoImageDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 355px;
+    height: 467px;
+    position: relative;
+
+}
+
+.AboutMeInfoText
+{
+    width: 825px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+
+.ProjectParentDiv {
+  margin-top: 225px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; 
+}
+
+.projectListEdting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.ProjectCard {
+  margin-top: 75px;
+  display: flex;
+  width: 800px;
+  height: 250px;
+  margin-bottom: 25px;
+  background: #151515;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+
+.ProjectCardImage {
+  width: 246px;
+  height: 250px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.ProjectCardImage img{
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.ProjectCardTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 36px;
+}
+
+.ProjectCardName {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+
+.ProjectCardFeature {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ProjectCardFeatureDiv {
+  margin-top: 25px;
+  width: 252px;
+}
+
+
+
+
+.ellipseIV {
+  width: 600px;
+  height: 600px; 
+  background-color: #FF0024;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px; 
+  right:0px;
+  filter: blur(90px);
+  opacity: 0.46;
+  z-index: -1;
+
+}
+.ellipseV {
+  width: 150px;
+  height: 150px; 
+  background-color: #00FF66;
+  border-radius: 50%;
+  position: absolute;
+  top: -80px; 
+  right:-80px;
+  filter: blur(90px);
+  opacity: 0.46;
+  z-index: -1;
+
+}
+.ellipseVI {
+  width: 600px;
+  height: 600px; 
+  background-color: #0041BE;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -250px; 
+  left:-250px;
+  filter: blur(90px);
+  opacity: 0.46;
+  z-index: -1;
+}
+.FooterParentDiv {
+  height: 527px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+}
+.FooterDiv {
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(to bottom, #ffffff, #3A3A3A);
+  margin-bottom: 70px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+}
+.FooterImage
+{
+  position: absolute;
+  width: 589px;
+  height: 589px;
+  top :-150px;
+  left: 0px;
+}
+.FooterText
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.FooterTextSocials
+{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  justify-content: start;
+  margin-right: 50px;
+  height: 300px;
+}
+
+.FooterTextSocialsText
+{
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.FooterTextSocialsTextI
+{
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  cursor:  pointer;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.ContactmeDiv
+{
+  font-family: "Montserrat", sans-serif;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 300px;
+  position: relative;
+}
+
+.InputField
+{
+
+  width: 500px;
+  height: 50px;
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  border-radius: 16px;
+  border: solid 1px #555;
+  margin-bottom: 25px;
+  padding-left: 25px;
+}
+.InputField:focus
+{
+  outline: none;
+}
+.ContactmeSubmitButton {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(-24deg, #981C82 0%, #ED6D65 56%, #B07900 100%);
+  color: white;
+  font-size: 34px;
+  border-radius: 24px;
+  cursor: pointer;
+  border: none; /* Optional: remove default button border */
+}
+
+
+.ContactmeSubmitButton:hover {
+  background-color: #00A8CC;
+  color: black;
+}
+
+.ContactmeSubmitButton:active {
+  width: 302px;
+  height: 79px;
+}
+.FooterlogoparentDiv
+{
+  display: flex;
+  
+}
+.contactmeDIvParent
+{
+  height: 50%;
+}
+
+@media only screen and (max-width: 1366px) {
+  
+
+  .NavbarPagesDiv
+  {
+      width: 41.67%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .HeroSectionTextParent
+  {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .HeroSectionIntro
+  {
+      width: 80%;
+      height: 716px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .NavbarDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .NavbarPagesDiv {
+    display: none; /* Hide the navigation links on mobile */
+  }
+
+  .NavbarResume {
+    display:  none;
+  }
+
+  .NavbarBurger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .MobileMenu {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    width: 100%;
+    position: absolute;
+    top: 100px; 
+    left: 0;
+    z-index: 2;
+  }
+
+  .MobileMenu .NavbarPages {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-weight: 700;
+    width: 50%;
+    background-color: white;
+    border-bottom: solid 1px#333333;
+
+  }
+
+  .HeroSectionTextParent
+{
+  margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeroSectionIntro
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.ImageDiv
+{
+    height: 251px;
+    width: 251px;
+    position: relative;
+}
+.Image
+{
+    height: 251px;
+    width: 251px;
+    position: relative;
+}
+.ellipse {
+  width: 141px;
+  height: 141px; 
+  background-color: #5B6CFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px; 
+  right: 60px;
+  filter: blur(25px);
+  opacity: 0.46;
+  z-index: -1;
+
+}
+.ellipseI {
+  width: 141px;
+  height: 141px;  
+  background-color: #FF5D20;
+  border-radius: 50%;
+  position: absolute;
+  bottom:-15px; 
+  right: -15px;
+  filter: blur(25px);
+  opacity: 0.46;
+  z-index: -1;
+
+}
+.ellipseII {
+  width: 141px;
+  height: 141px; 
+  background-color: #F4EB97;
+  border-radius: 50%;
+  position: absolute;
+  top:-15px; 
+  left: -15px;
+  filter: blur(25px);
+  opacity: 0.46;
+  z-index: -1;
+
+}
+/* Ellipse 7 */
+.ellipseIV {
+  width: 50px;
+  height: 50px;
+  background-color: #FF4500;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  filter: blur(20px);
+  opacity: 0.45;
+  z-index: -2;
+}
+
+/* Ellipse 8 */
+.ellipseVIII {
+  width: 170px;
+  height: 170px;
+  background-color: #00CED1;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  filter: blur(25px);
+  opacity: 0.5;
+  z-index: -1;
+}
+.ellipseIX {
+  width: 170px;
+  height: 170px;
+  background-color: #228B22;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  filter: blur(32px);
+  opacity: 0.42;
+  z-index: -1;
+}
+
+/* Ellipse 10 */
+.ellipseX {
+  width: 90px;
+  height: 90px;
+  background-color: #FFD700;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  filter: blur(12px);
+  opacity: 0.65;
+  z-index: -3;
+}
+.HeroSectionIntroText
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 232px;
+}
+.HeroSectionIntroTopText
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    position: relative;
+    margin-top: 70px;
+}
+
+
+.small-text {
+    font-size: 50px; 
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFA500; 
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.large-text {
+    font-size: 86px; 
+    font-weight: bold;
+    font-family: 'Sans-serif', sans-serif;
+    color: #FFFFFF;
+    line-height: 1; 
+ 
+}
+
+.HeroSectionIntroBottomText
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 700px;
+    color: #fff;
+    margin-top: 70px;
+    
+}
+.gradient-button {
+    background: linear-gradient(to bottom, #ffffff, #3A3A3A);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 33px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 270px;
+    height: 77px;
+    transition:  0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-top: 64px;
+    position: relative;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to bottom, #e0e0e0, #333333);
+}
+.gradient-button-emoji
+{
+    position: absolute;
+    top: -35px;
+    right: -20px;
+    rotate: -20deg;
+}
+
+.AboutMeParentDiv
+  {
+    margin-top: 225px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutMeTitle
+  {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+.Underline
+{
+    background-color: #fff;
+    height: 1px;
+}
+.AboutMeTitleText
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+.AboutMeInfo
+{
+    margin-top: 75px;
+    height: 478px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AboutmeInfoImageDiv img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 265px;
+    width: 201px;
+    position: relative;
+    margin-right: 0px;
+    }
+
+
+
+.AboutMeInfoText
+{
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ProjectParentDiv {
+  margin-top: 225px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; 
+}
+
+.projectListEdting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.ProjectCard {
+  margin-top:75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 475px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+
+.ProjectCardImage {
+  width: 300px;
+  height: 230px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+
+.ProjectCardTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 0%;
+  width: 300px;
+}
+
+.ProjectCardName {
+  margin: 0%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ProjectCardFeature {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+}
+
+.ProjectCardFeatureDiv {
+  margin-top: 25px;
+  width: 252px
+}
+
+.FooterParentDiv {
+  height: 315px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+.FooterDiv {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #ffffff, #3A3A3A);
+  margin-bottom: 70px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+}
+.FooterImage
+{
+  position: absolute;
+  width: 133.71px;
+  height: 133.71px;
+  top :-150px;
+  left: 0px;
+}
+.FooterImage img
+{
+  position: absolute;
+  width: 133.71px;
+  height: 133.71px;
+  top :80px;
+  right:  -250px;
+}
+.FooterText
+{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding-left: 50px;
+}
+.FooterTextSocials
+{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  justify-content: start;
+  margin-right: 50px;
+  height: 300px;
+}
+
+.FooterTextSocialsText
+{
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.FooterTextSocialsTextI
+{
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  cursor:  pointer;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.ContactmeDiv
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0%;
+  margin-top: 70px;
+  z-index: 1;
+}
+
+.InputField
+{
+
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  border-radius: 16px;
+  border: solid 1px #555;
+  margin-bottom: 25px;
+  padding-left: 45px;
+}
+.InputField:focus
+{
+  outline: none;
+}
+
+
+.ContactmeSubmitButton:active {
+  width: 302px;
+  height: 79px;
+}
+.FooterlogoparentDiv
+{
+  display: flex;
+  
+}
+.contactmeDIvParent
+{
+  height: 70%;
+}
+
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 600px) {
+
+  .HeroSectionIntroBottomText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 500px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.AboutmeInfoImageDiv img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 355px;
+    height: 467px;
+    position: relative;
+    margin-right: 100px;
+
+}
+.FooterImage {
+  position: absolute;
+  width: 471.2px;
+  height: 471.2px;
+  top: -150px;
+  left: 0px;
+}
+.FooterImage img{
+  position: absolute;
+  width: 471.2px;
+  height: 471.2px;
+  top: 35px;
+  left: 0px;
+}
+
+.ContactmeDiv {
+  font-family: "Montserrat", sans-serif;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+}
