@@ -61,7 +61,7 @@ function Contactme() {
         try {
            
             
-            const response = await axios.post(`${import.meta.env.VITE_URL}/project/message`, {name,email,message});
+            const response = await axios.post(`${import.meta.env.VITE_URL}/project//messageTwo`, {name,email,message});
             console.log('message sent:', response.data);
             setName("");
             setMessage("");
